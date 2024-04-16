@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App KPI</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Weather App KPI</h1>
+  <p>Select a city to view weather:</p>
+
+  <div class="search-container">
+    <input type="text" id="customCityInput" placeholder="Enter city name">
+  <button onclick="searchCustomCity()">Search</button>
+  </div>
+
+  <div class="cities">
+    <button onclick="redirectToCityWeather('obukhiv')">Обухів</button>
+    <button onclick="redirectToCityWeather('kyiv')">Київ</button>
+    <button onclick="redirectToCityWeather('lviv')">Львів</button>
+    <button onclick="redirectToCityWeather('odesa')">Одеса</button>
+    <button onclick="redirectToCityWeather('kharkiv')">Харків</button>
+    <button onclick="redirectToCityWeather('donetsk')">Донецьк</button>
+  </div>
+
+  <script>
+    function redirectToCityWeather(city) {
+      window.location.href = `/weather/${city}/`;
+    }
+
+    function searchCustomCity() {
+      const customCity = document.getElementById('customCityInput').value;
+      if (customCity.trim() !== '') { // Check if input is not empty
+        window.location.href = `/weather/${encodeURIComponent(customCity)}`;
+      } else {
+        alert('Please enter a city name.');
+      }
+    }
+  </script>
+</body>
+</html>
