@@ -10,6 +10,14 @@ This repository contains the backend labs for the course `Back-end Development`.
 - **Lab 4**: Developed with NestJS, interacting with the OpenWeatherMap API.
 - **Lab 5-6**: Developed with NestJS, interacting with the shared MongoDB.
 
+## Reports:
+[lab1](https://docs.google.com/document/d/1BBswZVQxcUo1qZ55Wa1wVaFdMA9PSTkE0kmyOTzgRTA/edit?usp=sharing)
+[lab2](https://docs.google.com/document/d/1qR4E1wdgEks6I6D5oFbXrI-NY_RCmQ6p6mCmdz3OpsU/edit?usp=sharing)
+[lab3](https://docs.google.com/document/d/1ASkTR00PNlh-mucaD7aj3m8abnBqlJ_m5Dg0HY6bQkU/edit?usp=sharing)
+[lab4](https://docs.google.com/document/d/1SI3sQl-I8bXUeYQjBNkJdEoEfo_tm0ll0PhSw9-6-7I/edit?usp=sharing)
+[lab5](https://docs.google.com/document/d/1oyc7RHWQz5wwvBGwowcdFufxYBlwm2h_29FpVRtfBtg/edit?usp=sharing)
+[lab6](https://docs.google.com/document/d/19YLiQnn9v9rMVKKoN7Isi6Jf3SC8BER-9bHZHXVMYSY/edit?usp=sharing)
+
 ## Installation:
 
 1. **Clone the Repository**:
